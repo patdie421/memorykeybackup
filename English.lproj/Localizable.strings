@@ -1,0 +1,98 @@
+"ABOUTRTF" = "apropos.rtf";
+
+"IDCLE" = "Key identifier";
+"DESCCLE" = "Key description";
+"INIT" = "Initialisation date";
+"DERNSAUV" = "Last backup";
+"SAUVSUIV" = "Next backup";
+"TYPESAUV" = "Backup type";
+
+"B_OK" = "OK";
+"B_YES" = "Yes";
+"B_NO" = "No";
+"B_CONFIGURE" = "Configure";
+"B_CANCEL" = "Cancel";
+"B_DELETE" = "Delete";
+"B_KEEP" = "Keep";
+"B_DO_IT" = "Do it";
+
+"B_DEFAUTLCONFIG" = "Default configuration";
+"NEWKEYDETECTED" = "A new key was detected. Would you like to backup it automatically ?";
+"NEWKEYDETECTED+" = "If yes, configure the backup type. As long as the key was not configured, she will not be backuped.";
+"AKEYALREADYEDIT" = "You already modify another key. Do you really want to edit another key?";
+"AKEYALREADYEDIT+" = "If you answer \"YES\", your previous modifications will be lost.";
+"TYRDELETEWHILECONFIG" = "You try to delete the key which you configure at present!";
+"TYRDELETEWHILECONFIG+" = "Before you can delete it, you must close the configuration window of this key.";
+
+"Choose a directory" = "Choose a directory";
+"INVALID_DIR" = "Invalid backup directory path !";
+"DIRNOTEXIST" = "The backup directory does not exist. Use \"Choose ...\" button to select or create a valid directory.";
+"DIRNOTWRITABLE" = "The backup directory is not writable. Use \"Choose ...\" button to select or create a valid directory.";
+"CANTCREATEDBDIR" = "The database directory can't be create. Check directory :";
+
+"%@ MOUNTDETECTED" = "Filesystem \"%@\" is mounted";
+"%@ UNMOUNTDETECTED" = "Filesystem \"%@\" is unmounted";
+"%@ NOTAKEY" = "\"%@\" is not a key, skip";
+"%@ ISAKEY %@" = "\"%@\" is the key \"%@\"";
+"ERRORREGISTERINGKEY %@ %@" = "error while registering the key (key : %@ / mount point : %@)";
+
+"CONFIRMEDELETE" = "Do you really want to remove this key from the list of the known keys ?";
+"CONFIRMEDELETE+" = "This operation is irreversible";
+"STARTNEXTBACKUPAT" = "Backup will start at : ";
+"INJOBQUEUE" = "tack in job queue";
+
+"CONFIRMEQUIT" = "Do you really want to quit this application ?";
+"CONFIRMEQUIT+" = "This will stop all active backup tasks";
+
+"NOTBACKUPED" = "Not backuped";
+"FULLBACKUP" = "Full backup";
+"INCREMENTALBACKUP" = "Incremental backup";
+"SYNCHRONIZATION" = "Synchronization";
+"UNKNOWN" = "Unknown";
+
+"NOLIMIT" = "No limit";
+
+"PLANNINGBACKUPFOR:" = "%@ : planning next backup";
+"NOTHINGTODO" = "Nothing to do !";
+"NOTTIMETOBACLUP" = "It is not time to do the backup";
+"DATE:" = "date : %@";
+
+"STARTBACKUP:" = "%@ : starting backup";
+"ERRORDURINGBACKUP::" = "%@ : error during backup(errno = %d)";
+"BACKUPCOMPLETE:" = "%@ : backup completed";
+
+"INCREMENTALSTART:" = "%@ : incremental backup started";
+"INCREMENTALCOMLETED:" = "%@ : incremental backup completed";
+"INCREMENTALERROR::" = "%@ : error during incremental backup (errno=%d)";
+
+"STARTINGENGINE" = "Starting up the application engine";
+"ENGINESTARTED" = "The engine is start";
+"STOPINGENGINE" = "Stopping the application engine";
+"ENGINEOFF" = "The application engine is off";
+"NEWKEY:" = "New key has id : %@ ...";
+"ADDTODATABASE:" = "Adding the key (%@) to database";
+"STARTINTERATIVECONFIG:" = "Starting interactive configuration of %@";
+"ENDINTERACTIVECONFIG:" = "End of the interactive configuration of %@";
+"CONFIGDEFAULT:" = "Key %@ configured with the defaults values";
+"ERRORNODEFAULT:" = "Error while configuring %@ : no defaults values exist";
+"LOADKEYFROMDB:" = "The key (%@) was loaded from the database";
+"UNKNOWKEYDETECTED" = "Unknown key detected ...";
+"KEYNOTCONGIGURED" = "Key not configured (refused by the user) !";
+
+"PROCESSINGFILE::" = "Processing file : %@ (%.0f%%)";
+
+"FULLSTART:" = "%@ : Full backup started";
+"FULLCOMLETED:" = "%@ : Full backup completed";
+
+"NOTBACKUPED:" = "%@ : key must not be backuped (see key configuration)";
+
+"DELETINGDIRECTORY:" = "Deleting %@";
+
+"TITLEDELETINGDIRECTORYCONFIRMATION" = "You will delete backups history";
+"TITLEDELETINGDIRECTORYCONFIRMATION+" = "This operation is Irreversible";
+
+"DESTDIRCHANGE" = "You change the destination directory :";
+"DESTDIRCHANGE+" = "memoryKeyBackup will loose the link with the old Directory. Do you want to delete it before applying this change ?";
+
+"NOINCAVAIBLE" = "No incremental backup set avaible";
+"NBDIRECTORYDELETED::" = "%@ : %d older backupset(s) was/were deleted";
